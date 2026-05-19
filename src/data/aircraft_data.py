@@ -10,5 +10,6 @@ def test_aircraft_data() -> type[Aircraft]:
     aircraft.minimum_allowed_center_of_gravity = -0.1
     aircraft.maximum_allowed_center_of_gravity = 0.2
     aircraft.target_center_of_gravity = 0.1
+    aircraft.maximum_shear_mass = 22000
 
     return aircraft
